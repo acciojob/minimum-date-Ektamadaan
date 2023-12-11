@@ -1,5 +1,7 @@
 function minDate(dates) {
   //write you code here
+	const mindate = new Date(Math.min(...dates))
+	return mindate ;
 }
 
 // Do not change the code
